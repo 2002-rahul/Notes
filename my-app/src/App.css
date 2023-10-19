@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body {
+    background-color: #eee;
+    padding: 0 16px;
+}
+
+h1 {
+    background-color: rgb(234, 182, 10);
+    color: #eee;
+    padding: 10px;
+}
+
+.note {
+    margin: 10px;
+    padding: 5px;
+    background-color: whitesmoke;
+    height: fit-content;
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    box-shadow: 1px 0px 1px 2px rgba(220, 218, 218, 0.859);
+    float: left;
+}
+
+.note ::after {
+    clear: both;
+}
+
+.foot {
+    padding: 25px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: rgb(211, 208, 208);
+}
+
+.btn {
+    background-color: rgb(234, 182, 10);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-add {
+    margin-left: 90%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-bottom: -30px;
+}
+
+.btn-del {
+    height: 25px;
+    width: 45px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 3px 0px rgba(19, 16, 16, 0.729);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.title {
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: x-large;
+}
+
+.text {
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.box {
+    width: 60%;
+    padding: 30px;
+    margin : auto
+}
+
